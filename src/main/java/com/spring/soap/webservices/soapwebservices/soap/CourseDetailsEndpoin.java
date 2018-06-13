@@ -27,4 +27,6 @@ public class CourseDetailsEndpoin {
         response.setCourseDetails(courseDetails);
         return response;
     }
+
+
 }
