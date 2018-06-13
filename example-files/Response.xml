@@ -1,0 +1,10 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<GetCourseDetailsResponse xmlns="http://danyweb.com/courses"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                          xsi:schemaLocation="http://danyweb.com/courses course-details.xsd">
+    <CourseDetails>
+        <id>123</id>
+        <name>Spring Web Services</name>
+        <description>Learning about Spring Web Servivces using SOAP</description>
+    </CourseDetails>
+</GetCourseDetailsResponse>
