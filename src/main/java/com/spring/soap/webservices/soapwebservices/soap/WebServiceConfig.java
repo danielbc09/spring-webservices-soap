@@ -26,10 +26,6 @@ public class WebServiceConfig {
         return new ServletRegistrationBean(messageDispatcherServlet, "/ws/*");
     }
 
-    // /ws/courses.wsdl
-    //CoursePort
-    //Namesopace http://danyweb.com/courses
-    // course-details.xsd
     @Bean(name="courses")
     public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema coursesSchema) {
         DefaultWsdl11Definition definition = new DefaultWsdl11Definition();
